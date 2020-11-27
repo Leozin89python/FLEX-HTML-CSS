@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document&copy</title>
+    <style>
+       #cima,#centro,#baixo{
+            display:flex;
+       }
+       #cima,#lateral,#card,#baixo{
+           border: solid 1px black;
+       }
+       #lateral{
+           height: 1885px;
+           width: 300px;
+       }
+       #btn{
+           display: flex;
+           margin-left: 3em;
+           margin-top: 2em;
+           height: 50px;
+           width: 15em;
+           background: red;
+           color: azure;
+       }
+       #btn:hover{
+           background: rgb(11, 11, 179);
+       }
+       #card{
+        width: 700px;
+       }
+       #cd{
+           display: inline-block;
+           flex-wrap: wrap;
+           margin-left: 1.5em;
+           margin-top: 1em;
+           border: solid grey 1px;
+           height: 200px;
+           width: 150px;
+           padding: 1%;
+           text-align: center;
+           box-shadow: 0px 2px 3px grey;
+       }
+       #cd:hover{
+        color: red;
+        box-shadow: none;
+       }
+       @media(max-width: 900px){
+        #cima,#centro,#baixo{
+            display: flex;
+        }
+       }
+       #logo{
+           margin-left: 4em;
+       }
+    </style>
+</head>
+<body>
+    <div id="flex-conteiner">
+        <div id="cima">
+            <h1 id="logo">cima</h1>
+        </div>
+        <div id="centro">
+            <div id="lateral">
+                <h1 id="logo">lateral</h1>
+                <button id="btn">press</button>
+                <button id="btn">press</button>
+                <button id="btn">press</button>
+                <button id="btn">press</button>
+                <button id="btn">press</button>
+            </div>
+            <div id="card">
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+                <h1 id="cd">card</h1>
+            </div>
+        </div>
+        <div id="baixo">
+            <h1 id="logo">pe</h1>
+        </div>
+    </div>
+</body>
+</html>
